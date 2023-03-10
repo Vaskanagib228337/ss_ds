@@ -23,9 +23,22 @@ header .logo {
     font-size: 20px;
 }
 
+header ul.nav {
+    float: right;
+    list-style: none;
+}
+header ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+header ul.nav li:hover {
+    opacity: 50%;
+}
+
 header .presentation {
     margin: 50px 0;
-    background: url('https://media.2x2tv.ru/content/images/2022/02/ae71407------.jpg') no-repeat;
+    background: url('https://phonoteka.org/uploads/posts/2022-09/thumbs/1663677012_11-phonoteka-org-p-sf-oboi-na-telefon-vkontakte-12.png') no-repeat; 
     width: 100%;
     height: 500px;
     background-size: cover;
